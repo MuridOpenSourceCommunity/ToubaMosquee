@@ -1,0 +1,52 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+-keep class io.vov.vitamio.EGL
+-keep class io.vov.vitamio.LibsChecker
+-keep class io.vov.vitamio.MediaFile
+-keep class io.vov.vitamio.MediaFormat
+-keep class io.vov.vitamio.MediaMetadataRetriever
+-keep class io.vov.vitamio.MediaPlayer
+-keep class io.vov.vitamio.MediaScanner
+-keep class io.vov.vitamio.MediaScannerClient
+-keep class io.vov.vitamio.Metadata
+-keep class io.vov.vitamio.ThumbnailUtils
+-keep class io.vov.vitamio.VIntent
+-keep class io.vov.vitamio.Vitamio
+-keep class io.vov.vitamio.VitamioLicense
+-keep class io.vov.vitamio.activity.InitActivity
+-keep class io.vov.vitamio.provider.MediaStore
+-keep class io.vov.vitamio.provider.MiniThumbFile
+-keep class io.vov.vitamio.utils.Base64
+-keep class io.vov.vitamio.utils.ContextUtils
+-keep class io.vov.vitamio.utils.CPU
+-keep class io.vov.vitamio.utils.Crypto
+-keep class io.vov.vitamio.utils.Device
+-keep class io.vov.vitamio.utils.FileUtils
+-keep class io.vov.vitamio.utils.IOUtils
+-keep class io.vov.vitamio.utils.Log
+-keep class io.vov.vitamio.utils.ScreenResolution
+-keep class io.vov.vitamio.utils.StringUtils
+-keep class io.vov.vitamio.widget.CenterLayout
+-keep class io.vov.vitamio.widget.MediaController
+-keep class io.vov.vitamio.widget.OutlineTextView
+-keep class io.vov.vitamio.widget.VideoView
+

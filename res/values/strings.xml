@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ToubaMosquee</string>
+    <string name="app_exit_message">Danga beugue faye Télé ToubaMosquee?</string>
+    <string name="str_no">Dédéd, Bayil nonou!</string>
+    <string name="str_yes">Waaw, soula nékhé!</string>
+    <string name="app_about">Kouko défar</string>
+    <string name="str_exit">Fayal Télé bi</string>
+    <string name="no_connection">Nga baalma Kholal ndakh am nga internet</string>
+    <string name="str_ok">Waw</string>
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>
+</resources>
